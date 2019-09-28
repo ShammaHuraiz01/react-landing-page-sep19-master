@@ -1,5 +1,6 @@
 import React from 'react';
 
+<<<<<<< HEAD
 const About = (prop) => {
     return(
         <div className="App">
@@ -9,3 +10,19 @@ const About = (prop) => {
 }
 
 export default About;
+=======
+
+ const About = () => {
+
+return(
+    return (
+        <AppContext.Provider value={[globalState, setGlobalState]}>
+          <div className="App">
+              <NavBar 
+                logo="MyCompany"
+         
+
+
+)
+ }
+>>>>>>> Setup for app.
