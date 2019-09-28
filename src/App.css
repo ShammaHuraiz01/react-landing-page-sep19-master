@@ -56,6 +56,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .form {
   border: solid 1px lightgray;
   max-width: 600px;
@@ -63,6 +64,8 @@
   padding: 20px;
 }
 
+=======
+>>>>>>> Setup for app.
 .form-group {
   margin: 20px 0 50px 0;
 }
