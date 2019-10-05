@@ -54,27 +54,15 @@ const Jumbotron = (prop) => {
                         You've been subscribed successfully!
                     </div>
                 }
-<<<<<<< HEAD
-
-=======
->>>>>>> Setup for app.
                 {
                     state.emailValid === "invalid" && 
                     <div className="alert alert-danger" role="alert">
                         Please enter a valid email address.
                     </div>
                 }
-<<<<<<< HEAD
-
-=======
->>>>>>> Setup for app.
                 
             </div>
         </div>
     )
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> Setup for app.
 export default Jumbotron;
