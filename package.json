@@ -3,11 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "antd": "^3.23.4",
     "fetch": "^1.1.0",
-=======
->>>>>>> Setup for app.
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.1",
