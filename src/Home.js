@@ -5,13 +5,13 @@ import RegistrationForm from './RegistrationForm'
 import LoginForm from './LoginForm'
 import AppContext from './AppContext'
 import Modal from './Modal'
-import './App.css';
+
 
 const Home = (prop) => {
 
   const [globalState, setGlobalState] = useContext(AppContext);
 
-  const modalCloseHandler = () => {
+  const modalCloseHandler = (e, b) => {
     setGlobalState({ 
       ...globalState,
       userForm: null
@@ -50,4 +50,4 @@ const Home = (prop) => {
   );
 }
 
-export default Home;
+export default Home; 
